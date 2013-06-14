@@ -1,0 +1,60 @@
+#!/bin/bash -e
+#
+# ==============================================================================
+# PAQUETE: canaima-fondos-dinamicos
+# ARCHIVO: postinst
+# DESCRIPCIÓN: Configura el fondo de pantalla dinamicos.
+# COPYRIGHT:
+#  (C) 2011 Francisco Vasquez Guerrero <franjvasquezg@gmail.com>
+# LICENCIA: GPL3
+# ==============================================================================
+#
+# Este programa es software libre. Puede redistribuirlo y/o modificarlo bajo los
+# términos de la Licencia Pública General de GNU (versión 3).
+
+PKG="canaima-fondos-dinamicos"
+
+case ${1} in
+
+	configure)
+		
+		for HOME_U in /home/*?; do
+			USUARIO=$(basename ${HOME_U}) 	
+		
+		# Y en caso de que el usuario sea un usuario activo (existente en /etc/shadow) ...
+			if [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:::" /etc/shadow ) == 1 ] \
+			&& [ $( grep -c "${USUARIO}:.*:.*:.*:.*:.*:/bin/.*sh" /etc/passwd ) == 1 ] \
+			&& [ -d ${HOME_U}/.config ] \
+			&& [ -d ${HOME_U}/Escritorio ] \
+			&& [ -d ${HOME_U} ]; then
+			
+					if [ ! -e /home/${USUARIO}/.gnome2/backgrounds.xml ] ; then
+						touch home/${USUARIO}/.gnome2/backgrounds.xml
+						mv /usr/share/canaima-fondo-dinamico/backgrounds.xml /home/${USUARIO}/.gnome2/
+						chown ${USUARIO}:${USUARIO} /home/${USUARIO}/.gnome2/backgrounds.xml
+					else
+						echo "Ya existe el archivo backgrounds.xml"
+					fi
+			fi
+		done
+		;;
+
+        abort-upgrade|abort-remove|abort-deconfigure)
+
+        # Aquí va lo que el paquete debe configurar/crear/borrar en caso
+        # de abortarse la instalación. Lenguaje a usar: BASH.
+
+        ;;
+
+        *)
+
+                echo "postinst no reconoce el argumento '"${1}"'" >&2
+                exit 1
+
+        ;;
+
+esac
+
+#DEBHELPER#
+
+exit 0

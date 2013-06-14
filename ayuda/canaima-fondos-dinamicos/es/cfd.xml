@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "gpl.xml">
+<!ENTITY appversion "0.52">
+<!ENTITY app "<application>Canaima-Fondos-Dinámicos</application>">
+<!ENTITY manrevision "0.1">
+<!ENTITY date "2012">
+]>
+<!-- =============Document============================= -->
+<article id="index" lang="es">
+
+<articleinfo> 
+<title>Manual del Fondo de Pantalla Dinámico </title>       
+<copyright> 
+	<year>2012</year> 
+	<holder>Francisco Vásquez</holder> 
+</copyright>
+
+<authorgroup> 
+	<author> 
+		<firstname>Francisco Vásquez</firstname>
+		
+	</author>
+
+</authorgroup>
+
+<releaseinfo>
+	Este manual describe como utilizar Canaima Fondos Dinamicos.
+</releaseinfo> 
+
+<legalnotice>
+	<title>
+		Aviso legal
+	</title>	
+	<para> 
+		Este documento se distribuye bajo los términos de la
+	Licencia Pública General GNU tal como la publica la Free
+	Software Foundation; en la versión 3 de la Licencia, o (a su
+	elección) cualquier versión posterior. Puede encontrar una
+	copia de esta licencia en este manual o en el archivo incluido con el
+	código fuente de este programa.
+	</para>
+</legalnotice>
+
+<legalnotice> 
+	<title>
+		Retroalimentación
+	</title>
+	<para>
+		Para informar de un fallo o hacer cualquier sugerencia
+		concerniente al Canaima Fondos Dinámicos o este manual, envié un correo a la siguiente dirección <email>desarrolladores@canaima.softwarelibre.gob.ve</email>.
+	</para>
+	
+
+</legalnotice> 
+</articleinfo> 
+
+<indexterm zone="index"> 
+	<primary>Canaima Fondos Dinámicos</primary> 
+</indexterm> 
+<indexterm zone="index"> 
+	<primary>Paquetes</primary>
+</indexterm>
+<indexterm zone="index"> 
+	<primary>Software</primary>
+</indexterm>
+
+<sect1 id="c-s-introduction"> 
+	<title>
+		Introducción
+	</title> 
+	<para>
+		El Fondo de Pantalla Dinámico es una herramienta sencilla que permite generar un fondo de pantalla 
+		rotatorio a partir de imágenes seleccionadas por el usuario, configura la duración de cada imagen como fondos de pantalla como la transición entre ellas generando un efecto de super-posición.
+	</para>
+</sect1>
+
+	
+
+<sect1 id="c-s-construir"> 
+	<title>Crear o Editar un Fondo Dinámico</title> 
+	
+	<para>
+		Canaima Fondos Dinámicos genera un archivos xml donde indica las imágenes seleccionadas por el usuario el tiempo y transición que el sistema utiliza para los fondo de pantalla. Para poder crear ó editar un fondo dinámico se debe hacer lo siguiente: 
+	</para>
+
+	<para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Seleccionar Fondos de Escritorio(Botón): Con este botón podrá buscar la carpeta o fichero donde esta las imágenes que desea utilizar como fondo de escritorio.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Fondo Duración Minutos (Deslizador): Con este deslizador podrá establecer cuantos minutos desea que cada imagen permanezca como fondo de pantalla desde 5 a un máximo de 60 minutos.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Transición (Deslizador): Con este deslizador podrá establecer cuantos segundos durará el cambio de imágenes del fondos de pantalla.   
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Ventana de Desplazamiento: Esta ubicado al lado derecho de la aplicación aqui podra observar la imágenes que contiene la carpeta o fichero que selecciono con el boton Seleccionar Fondos de Escritorio.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Botón Aceptar: podrá aplicar la creación o edición de un fondo dinámico en su computadora.
+			</para>
+		</listitem>
+		
+	</orderedlist>
+	
+	</para>
+
+	<caution>
+		<para>
+			Si deséa que su fondo de escritorio no sea dinámico solo seleccione un fondo de escrito desde la configuración de sistema fondo, del menu>aplicaciones>herramientas de sistema>configuración del sistema>Fondo.
+		</para>
+
+	</caution>
+	<note>
+		<para>
+			Segerencia: puede utilizar imágenes que tenga las dimenciones de su monitor.
+		</para>
+	</note>
+</sect1>
+
+
+
+
+<sect1 id="myapp-about"> 
+	<title>
+		Acerca de &app;
+	</title> 
+	<para> 
+			&app; Escrito originalmente por El equipo de Desarrollo de Canaima GNU Linux .
+	</para>
+		
+	<para> 
+		Los desarrolladores que han participado en la construcción del paquete son:		
+
+		 <itemizedlist>
+		       
+			<listitem>
+				<para>
+	                              Francisco Vásquez <email>franjvasquezg@gmail.com</email>
+		                </para>
+	                </listitem>
+		
+		</itemizedlist>
+	
+			
+	</para>
+	<para>
+		Para informar de un fallo o hacer una sugerencia
+		concerniente a &app; 
+		o a este manual, ingrese al sitio web <ulink url="http://canaima.softwarelibre.gob.ve">http://canaima.softwarelibre.gob.ve</ulink>,  o 	contacte a través del correo <email>desarrolladores@canaima.softwarelibre.gob.ve</email>.
+	</para>
+	<para> 
+		Este programa se distribuye bajo los términos de la
+		Licencia Pública General GNU.
+	</para>
+</sect1> 
+
+
+</article>
