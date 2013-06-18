@@ -13,7 +13,7 @@
 
 SHELL := sh -e
 
-SCRIPTS = "debian/postinst configure" "debian/postrm remove"
+SCRIPTS = "debian/postrm remove"
 
 all: build
 
@@ -45,6 +45,7 @@ install:
 
 	cp -r desktop/prometeo-abc.desktop $(DESTDIR)/usr/share/applications/
 	cp -r icono/prometeo-abc.svg $(DESTDIR)/usr/share/icons/Gnamon/apps/scalable/
+	cp -r icono/prometeo-abc.png $(DESTDIR)/usr/share/icons/Gnamon/apps/48/
 	cp -r prometeo/* $(DESTDIR)/usr/share/prometeo-abc/
 	cp -r /usr/share/prometeo-abc/prometeo-abc.sh $(DESTDIR)/usr/bin/prometeo-abc
 	

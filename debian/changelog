@@ -1,1 +1,6 @@
+prometeo-abc (1.0+1) unstable; urgency=low
 
+  [ Francisco Vasquez Guerrero ]
+  * Versión inicial de prometeo-abc para accesibilidad auditiva
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 18 Jun 2013 13:36:28 -0430

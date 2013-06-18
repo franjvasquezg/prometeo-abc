@@ -3,14 +3,13 @@ Section: misc
 Priority: extra
 Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
 Uploaders: Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
-Build-Depends: cdbs, debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
-#Homepage: http://canaima.softwarelibre.gob.ve/
-#Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-fondos-dinamicos.git
-#Vcs-Browser: git://gitorious.org/canaima-gnu-linux/canaima-fondos-dinamicos.git
+Build-Depends: cdbs, debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/prometeo-abc.git
+Vcs-Browser: git://git.canaima.softwarelibre.gob.ve/prometeo-abc.git
 
-Package: canaima-fondos-dinamicos
+Package: prometeo-abc
 Architecture: all
-Depends: python, python-gtk2, python-gobject, ${shlibs:Depends}, ${misc:Depends}
-Description: Herramienta para cambian los fondo de Canaima GNU/Linux dinámicamente.
- con la posibilidad de editar fondo de pantalla dinamico. 
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Herramienta para aprender lengua de señas Venezolana. 
