@@ -1,15 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-#
-# ==============================================================================
-# PAQUETE: canaima-instalador
-# ARCHIVO: canaimainstalador/__init__.py
+#CKAGE: aguilas
+# FILE: prometeo/prometeo.sh
+# DESCRIPTION:  ejecutable para el prometeo.
 # COPYRIGHT:
-#       (C) 2012 William Abrahan Cabrera Reyes <william@linux.es>
-#       (C) 2012 Erick Manuel Birbe Salazar <erickcion@gmail.com>
-#       (C) 2012 Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
-# LICENCIA: GPL-3
-# ==============================================================================
+# (C) 2012 Francisco Javier Vasquez Guerrero <franjvasquezg@gmail.com>
+# LICENCE: GPL3
+# ====================================================================
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -25,3 +20,9 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 # CODE IS POETRY
+
+PATHBIN="/usr/share/prometeo-abc/"
+
+blenderplayer ${PATHBIN}prometeo-abc.blend
+
+exit 0
