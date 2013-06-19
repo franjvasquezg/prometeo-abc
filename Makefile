@@ -42,6 +42,7 @@ install:
 	mkdir -p $(DESTDIR)/usr/share/prometeo-abc/
 	mkdir -p $(DESTDIR)/usr/share/applications/
 	mkdir -p $(DESTDIR)/usr/share/icons/Gnamon/apps/scalable/
+	mkdir -p $(DESTDIR)/usr/share/icons/Gnamon/apps/48/
 
 	cp -r desktop/prometeo-abc.desktop $(DESTDIR)/usr/share/applications/
 	cp -r icono/prometeo-abc.svg $(DESTDIR)/usr/share/icons/Gnamon/apps/scalable/
