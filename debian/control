@@ -1,5 +1,5 @@
 Source: prometeo-abc
-Section: misc
+Section: games
 Priority: extra
 Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
 Uploaders: Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
@@ -12,4 +12,5 @@ Vcs-Browser: git://git.canaima.softwarelibre.gob.ve/prometeo-abc.git
 Package: prometeo-abc
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Herramienta para aprender lengua de señas Venezolana. 
+Description: Herramienta para aprender lengua de señas Venezolana.
+ para personas con Discapacidad auditiva. 
