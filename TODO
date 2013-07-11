@@ -1,1 +1,5 @@
-incluir la letra Ñ
+-. incluir la letra Ñ
+-. Modulo para importar los modelos con sus respectivos clips de animacion de archivos fuentes.
+-. Colocar cada modelo como un editable cn sus clips de animacion.
+-. Modulo para importar clips de animación de diferentes editables a un solo archivo.
+-. Crear un armature estandar para todos los modelos, de manera tal que se pueda utilizar una mismo clip de animación para todos los modelos
