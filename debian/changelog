@@ -1,3 +1,12 @@
+prometeo-abc (4.0+2) unstable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [21d5a73] nueva versión prometeo-abc modificaciones pertinentes nueva dependencia
+
+  [ francisco vasquez ]
+
+ -- francisco vasquez <franjvasquezg@gmail.com>  Thu, 18 Jul 2013 16:24:24 -0430
+
 prometeo-abc (4.0+1) unstable; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
