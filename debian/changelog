@@ -1,3 +1,13 @@
+prometeo-abc (4.0+4) unstable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [44bf06d] sustituyendo contenido del fichero prometeo
+  * [809b6ec] removiendo nuevamente los svg de las texturas
+
+  [ francisco vasquez ]
+
+ -- francisco vasquez <franjvasquezg@gmail.com>  Fri, 19 Jul 2013 13:56:53 -0430
+
 prometeo-abc (4.0+3) unstable; urgency=low
 
   [ Homero Hernandez ]
