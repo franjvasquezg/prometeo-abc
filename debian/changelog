@@ -1,3 +1,63 @@
+prometeo-abc (4.0+2) unstable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [21d5a73] nueva versión prometeo-abc modificaciones pertinentes nueva dependencia
+
+  [ francisco vasquez ]
+
+ -- francisco vasquez <franjvasquezg@gmail.com>  Thu, 18 Jul 2013 16:24:24 -0430
+
+prometeo-abc (4.0+1) unstable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [6b0ff20] movemos el binario, creamos archivo TODO indicando que falta la letra Ñ
+  * [ef7759b] agradecimientos
+  * [788b12a] se corrige rules
+  * [1e1a2b1] creando fichero para el icono 48
+  * [5f10d63] removemos MV por CP
+  * [b8136ca] corregimos  no se puede efectuar stat sobre prometeo-abc.blend No existe el fichero o el directorio
+
+  [ Francisco Javier Vásquez guerrero ]
+  * [94783da] incorporando README.md para github
+
+  [ Homero Hernandez ]
+  * [a0750be] Escena pipo / sarah: 	-. Logicks bricks desplazados al armature del modelo.
+    	-. Se agrego script "Sensor_teclado.py" con metodo main para sustituir logic bricks y controlar la entrada por teclado, evitando de esta forma bugs en la animacion de pipo y sarah
+    	-. Agregar clips de animacion a los esqueletos respectivos, con el fin de separar ambos personajes y la logica en modulos para reducir el tamaño de los paquetes escenciales (aun no se han separado en paquetes)
+    Escena sarah:
+    	-. Modificacion de la seña "A" en sarah
+    Escena pizarra_pipo / pizarra_sarah:
+    	-. Logic bricks desplazados a objeto "apizarra"
+    	-. Se fucionaron las escenas "pizarra_pipo" y "pizarra_sarah" en "pizarra"
+    	-. Fueron sustituidos los logic bricks que controlaban el teclado por el metodo "textura"
+    	-. En la escena "pizarra" se eliminaron los planos que contenian la textura de cada letra. para remediar esto se agregaron los metodos "createTexture", "removeTexture" con el fin de asignar dinamicamente dichas texturas a un plano base
+    	-. Para elegir el modelo a mostrar (pipo o sarah) se diseño el metodo "seleccionar" el cual evalua los mensajes provenientes de la escena "seleccion" con el nombre del modelo que se mostrará, luego agrega dicha escena
+    Escena seleccion:
+    	-. Logic bricks desplazados a objeto "Plane"
+    	-. Fueron sustituidos los logic bricks por el metodo "control_raton" el cual maneja los eventos del cursor mouseOver y leftButton. Además, dependiendo de la selección, envia un mensaje con el nombre del modelo seleccionado
+    	-. Se agregaron logic bricks (always/and/message) para el envio de mensaje a la escena "corners"
+    Escena corners:
+    	-. El objecto "menu_corner" solo será visible en la escena "pizarra", mediante la activación del metodo "visible" el cual evalua los mensajes entrantes de las escenas "pizarra" y "seleccion" modificando su visibilidad o invisibilidad respectivamente.
+    	-. Se modificaron los logic bricks encargados de resetear el juego, agregando ahora el metodo "depuradorScenas" encargado de gestionar el cambioo de la escena "pizarra" a "seleccionar" sin resetear el juego.
+  * [13579b2] modificaciones de rendimiento (ver log)
+  * [fa747e1] se anexaron la carpeta texturas
+  * [e053379] notgin
+  * [596fe21] agregando carpeta de texturas
+  * [cc3e4b5] eliminando .blend extras
+  * [004aa36] actualizando fuente
+  * [2d0385d] borrando blenderplayer
+  * [4ad6183] por fallas de compatibilidad con la version 2.63 de blender, fue necesario realizar los siguientes cambios:
+    - se agrego scena "cpizzarra"
+    - se modifico enlace entre las escenas seleccion-pizzarra por las escenas seleccion- cpizzarra
+    - se agrego metodo mostrarTextura para compatibilidad con la version 2.63 de blender
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [821a3de] borrando .blend de la rama de desarrollo
+
+  [ francisco vasquez ]
+
+ -- francisco vasquez <franjvasquezg@gmail.com>  Thu, 18 Jul 2013 16:05:53 -0430
+
 prometeo-abc (1.0+1) unstable; urgency=low
 
   [ Francisco Vasquez Guerrero ]

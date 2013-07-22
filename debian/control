@@ -11,6 +11,6 @@ Vcs-Browser: git://git.canaima.softwarelibre.gob.ve/prometeo-abc.git
 
 Package: prometeo-abc
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Herramienta para aprender lengua de señas Venezolana.
- para personas con Discapacidad auditiva. 
+Depends: blender, ${shlibs:Depends}, ${misc:Depends}
+Description: Abecedario en lengua de señas Venezolana.
+ juego para niños para personas con Discapacidad auditiva. 
