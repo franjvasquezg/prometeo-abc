@@ -1,3 +1,16 @@
+prometeo-abc (4.0+3) unstable; urgency=low
+
+  [ Homero Hernandez ]
+  * [40d3820] se agregaron los archivos edibles de ciertas imagenes se agrego soporte para transparencia de texturas
+  * [9129d67] verificacion de materiales con transparencia agregando imagenes respectivas a los mapas uv
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [99896ab] nuevas tareas de cosas por hacer
+
+  [ francisco vasquez ]
+
+ -- francisco vasquez <franjvasquezg@gmail.com>  Fri, 19 Jul 2013 13:27:53 -0430
+
 prometeo-abc (4.0+2) unstable; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
