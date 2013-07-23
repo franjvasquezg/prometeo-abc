@@ -1,3 +1,12 @@
+prometeo-abc (4.0+5) unstable; urgency=low
+
+  [ Homero Hernandez ]
+  * [c2fa467] arreglando fallas de texutras
+
+  [ francisco vasquez ]
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 23 Jul 2013 08:43:38 -0430
+
 prometeo-abc (4.0+4) unstable; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
