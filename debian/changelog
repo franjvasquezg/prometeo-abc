@@ -1,3 +1,12 @@
+prometeo-abc (4.0+6) unstable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [9eb834a] resolviendo ticket http://trac.canaima.softwarelibre.gob.ve/canaima/ticket/782
+
+  [  ]
+
+ --  <pacho2@franj>  Thu, 03 Oct 2013 19:37:49 +0000
+
 prometeo-abc (4.0+5) unstable; urgency=low
 
   [ Homero Hernandez ]
