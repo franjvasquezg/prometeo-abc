@@ -61,7 +61,7 @@ prometeo-abc (4.0+1) unstable; urgency=low
     	-. Se agregaron logic bricks (always/and/message) para el envio de mensaje a la escena "corners"
     Escena corners:
     	-. El objecto "menu_corner" solo será visible en la escena "pizarra", mediante la activación del metodo "visible" el cual evalua los mensajes entrantes de las escenas "pizarra" y "seleccion" modificando su visibilidad o invisibilidad respectivamente.
-    	-. Se modificaron los logic bricks encargados de resetear el juego, agregando ahora el metodo "depuradorScenas" encargado de gestionar el cambioo de la escena "pizarra" a "seleccionar" sin resetear el juego.
+    	-. Se modificaron los logic bricks encargados de resetear el juego, agregando ahora el metodo "depuradorScenas" encargado de gestionar el cambio de la escena "pizarra" a "seleccionar" sin resetear el juego.
   * [13579b2] modificaciones de rendimiento (ver log)
   * [fa747e1] se anexaron la carpeta texturas
   * [e053379] notgin
